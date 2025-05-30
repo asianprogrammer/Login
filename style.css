@@ -114,3 +114,7 @@ input::placeholder {
     display: inline-block;
     font-family: sans-serif;
 }
+
+.input:has(+ .input){
+    margin-bottom: 1em;
+}
