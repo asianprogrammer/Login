@@ -39,3 +39,22 @@ body {
     object-position: bottom;
 
 }
+
+button {
+    width: 100%;
+    outline: none;
+    font-size: 1em;
+    padding: 1em 0;
+    cursor: pointer;
+    color: var(--black);
+    border-radius: var(--r);
+    background: var(--green);
+    border: solid 1px var(--green);
+    margin: 1em 0;
+}
+
+.api-login {
+    color: var(--white);
+    background: #1f2428;
+    border-color: #282e34;
+}
