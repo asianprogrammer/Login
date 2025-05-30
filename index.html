@@ -38,27 +38,36 @@
                 <form class="form-view" onsubmit="alert('You can handle form'); return false;">
                     <div class="input">
                         <label for="name">Full name *</label>
-                        <input type="text" placeholder="" >
+                        <input id="name" type="text" placeholder="Enter your full name.." >
                     </div>
 
                     <div class="input">
-                        <label for="email">Full name *</label>
-                        <input  type="text" placeholder="" >
+                        <label for="email">Email address *</label>
+                        <input id="email" type="email" placeholder="Enter your email address.." >
                     </div>
 
                     <div class="input">
-                        <label for="name">Full name *</label>
-                        <input type="text" placeholder="" >
+                        <label for="password">Full name *</label>
+                        <input id="password" type="password" placeholder="Enter a secure password.." >
+
+                        <div class="icon">
+                            <img src="./assets/icons/hide.svg" alt="Hide Icon" >
+                        </div>
                     </div>
 
-                    <div class="input">
-                        <label for="name">Full name *</label>
-                        <input type="text" placeholder="" >
-                    </div>
+                    <p class="gray">Password must be at least 8 characters, including a number and a special character.</p>
 
                     <button type="submit">Create account</button>
                 </form>
 
+                <section class="center-view">
+                    <div class="flex F-center">
+                        <p class="gray">Already have an account?</p>
+                        <a href="#">Log In</a>
+                    </div>
+
+                    <p class="gray">By signing up, you agree to our <span class="white">Terms</span> and <span class="white">Privacy Policy.</span></p>
+                </section>
             </section>
         </section>
     </main>
