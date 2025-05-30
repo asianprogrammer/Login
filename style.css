@@ -68,10 +68,10 @@ button {
 
 input {
     width: 100%;
+    padding: 1em;
     outline: none;
-    font-size: 1.1em;
+    font-size: 1em;
     color: var(--white);
-    padding: 1em 0.5em;
     transition: .2s ease;
     background: var(--dark);
     border-radius: var(--r);
