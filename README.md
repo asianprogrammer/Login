@@ -4,15 +4,6 @@ A modern, elegant **Signup Page** UI built completely with **only HTML and CSS**
 
 ![Screenshot](./Screenshot_20250530_180015.png)
 
----
-
-## 🧠 Inspiration
-
-This UI was crafted by eye — replicating a screenshot without inspecting or using any tools.  
-An exercise in precision, layout control, and design interpretation using pure frontend fundamentals.
-
----
-
 ## 🔧 Tech Stack
 
 - ✅ **HTML5**
