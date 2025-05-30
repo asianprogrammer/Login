@@ -6,7 +6,7 @@
 
 :root {
     --r: 8px;
-    --space: 1em;
+    --space: 0.8em;
     --black: #040404;
     --green: #a2b18a;
     --white: #cfd6db;
@@ -15,9 +15,15 @@
     --light-black: #282e34;
 }
 
+@font-face {
+    font-family: DM;
+    src: url(./assets/fonts/dm.ttf);
+}
+
 body {
     margin: var(--space);
     background: var(--black);
+    font-family: DM;
 }
 
 main {
