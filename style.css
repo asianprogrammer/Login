@@ -54,18 +54,17 @@ main {
     object-fit: cover;
     user-select: none;
     -webkit-user-drag: none;
-    object-position: bottom;
 }
 
 .left-view aside {
     bottom: 0;
     width: 100%;
-    padding-top: 20em;
+    padding-top: 10em;
     padding-bottom: 4em;
     position: absolute;
     text-align: center;
     color: var(--white);
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(10px);
     mask-image: linear-gradient(180deg, transparent 0%, #000000 60%);
     mask-size: 100% 100%;
     mask-repeat: no-repeat;
