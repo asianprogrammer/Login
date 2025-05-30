@@ -5,12 +5,14 @@
 }
 
 :root {
+    --r: 8px;
+    --space: 1em;
     --black: #040404;
     --green: #a2b18a;
     --white: #cfd6db;
     --gray: #5d6b79;
-    --space: 1em;
-    --r: 8px;
+    --dark: #0e0f11;
+    --light-black: #282e34;
 }
 
 body {
@@ -56,5 +58,30 @@ button {
 .api-login {
     color: var(--white);
     background: #1f2428;
-    border-color: #282e34;
+    border-color: var(--light-black);
+}
+
+.input {
+    width: 100%;
+    position: relative;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    font-size: 1.1em;
+    color: var(--white);
+    padding: 1em 0.5em;
+    transition: .2s ease;
+    background: var(--dark);
+    border-radius: var(--r);
+    border: solid 1px var(--light-black);
+}
+
+input:focus {
+    box-shadow: 0 0 0 2px var(--green);
+}
+
+input::placeholder {
+    color: var(--gray);
 }
