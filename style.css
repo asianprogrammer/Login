@@ -21,6 +21,19 @@ body {
 .left-view {
     width: 50%;
     overflow: hidden;
+    position: relative;
     border-radius: var(--r);
     height: calc(100vh - var(--space) * 2);
+}
+
+.left-view .image-view {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.left-view .image-view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
