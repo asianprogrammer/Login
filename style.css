@@ -48,8 +48,17 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
     object-position: bottom;
 
+}
+
+.left-view aside {
+    bottom: 3em;
+    width: 100%;
+    text-align: center;
+    position: absolute;
 }
 
 button {
