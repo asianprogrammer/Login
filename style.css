@@ -20,6 +20,10 @@ body {
     background: var(--black);
 }
 
+main {
+    justify-content: space-between;
+}
+
 .left-view {
     width: 50%;
     overflow: hidden;
@@ -117,4 +121,10 @@ input::placeholder {
 
 .input:has(+ .input){
     margin-bottom: 1em;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 1em;
 }
