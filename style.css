@@ -128,3 +128,7 @@ input::placeholder {
     height: 25px;
     margin-right: 1em;
 }
+
+.right-view {
+    width: 50%;
+}
